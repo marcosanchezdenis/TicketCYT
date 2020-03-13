@@ -1,0 +1,18 @@
+<p>history-display works!</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Turno</th>
+            <th>fecha</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let turn of turns">
+            <td scope="row"> {{ turn.code }} </td>
+            <td>{{ turn.date }} </td>
+            <td></td>
+        </tr>
+        
+    </tbody>
+</table>
